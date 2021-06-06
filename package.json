@@ -18,13 +18,22 @@
   "author": "Alexandra Shyshkovskaya <alexis.shyshka@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/goit-js-hw-13-image-finder/issues"
+    "url": "https://github.com/goitacademy/goit-js-hw-13-image-findernpm install axios/issues"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.5",
+    "parcel-plugin-custom-dist-structure": "^1.1.18",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "handlebars": "^4.7.7",
+    "lodash.debounce": "^4.0.8",
+    "toastify-js": "^1.11.0"
   }
 }
