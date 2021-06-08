@@ -11,28 +11,31 @@
       crossorigin="anonymous"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <!--<include src="./partials/example.html"></include>-->
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-        <form class="search-form form-inline" id="search-form">
-          <div class="form-group mx-sm-3 mb-3">
-          <input type="text" class="form-control" name="query" autocomplete="off" id="searchQuery"
-                placeholder="Search images..." />
-          </div>
-              <button type="submit" class="btn btn-primary mb-3" data-action="search-btn">Search</button>
-        </form>
-
+       
+  <div class="form">
+    <form class="search-form form-inline" id="search-form">
+      <input type="text" 
+             class="form-input" 
+             name="query" 
+             autocomplete="off" 
+             id="searchQuery"
+             placeholder="Search images..." />
+             
+      <button type="submit" class="button-designe" data-action="search-btn">Search</button>
+    </form>
+  </div>
     <ul class="gallery js-gallery-list">
       <!-- Список <li> с карточками изображений -->
     </ul>
 
       <div id="sentinel"></div>
 
-      <button type="button" class="btn btn-primary button" data-action="load-more">
+      <button type="button" class="button button-designe" data-action="load-more">
         <span class="circles spinner-border spinner-border-sm spinner is-hidden" role="status" aria-hidden="true"></span>
-
         <span class="label">Load more</span>
       </button>
 
