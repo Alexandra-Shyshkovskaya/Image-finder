@@ -6,7 +6,6 @@ const callback = (entries, io) => {
     }
   });
 };
-
 const options = {
   rootMargin: '100px',
 };
