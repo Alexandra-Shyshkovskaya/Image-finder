@@ -1,0 +1,44 @@
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.button.is-hidden {
+  display: none;
+}
+
+.button.end {
+  background-color: transparent;
+  color: gray;
+  font-size: 20px;
+}
+
+.btn {
+  // display: inline-block;
+  padding: 5px 10px;
+
+  min-width: 200px;
+  min-height: 30px;
+
+  color: #ffffff;
+  background-color: #2196f3;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border: none;
+  cursor: pointer;
+}
+
+.button > .spinner.is-hidden {
+  display: none;
+}
