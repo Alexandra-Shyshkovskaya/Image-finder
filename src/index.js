@@ -45,7 +45,7 @@ function fetchPhotos() {
       return toastify.onFetchError();
     }
 
-    if (photos.length < 12 && photos.length > 0) {
+    if (photos.length < 6 && photos.length > 0) {
       loadMoreBtn.showEnd();
       appendPhotosMarkup(photos);
       return;

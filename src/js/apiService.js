@@ -12,7 +12,7 @@ export default class PhotoApiService {
       orientation: 'horizontal',
       q: this.searchQuery,
       page: this.page,
-      per_page: 12,
+      per_page: 6,
       key: API_KEY,
     });
 

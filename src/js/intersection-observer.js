@@ -8,7 +8,7 @@ const callback = (entries, io) => {
 };
 
 const options = {
-  rootMargin: '100px',
+  rootMargin: '200px',
   // threshold: 0.5,
 };
 
