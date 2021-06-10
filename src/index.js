@@ -1,8 +1,9 @@
 import photosTpl from './templates/gallery.hbs';
 import PhotoApiService from './js/apiService';
 import LoadMoreBtn from './js/components/load-more-btn';
-import toastify from './js/notifications';
+import toastify from './js/notification';
 import './js/components/lightbox';
+
 import './sass/main.scss';
 import getRefs from './js/refs';
 
@@ -73,4 +74,5 @@ function scroll() {
     block: 'end',
   });
 }
+
 
