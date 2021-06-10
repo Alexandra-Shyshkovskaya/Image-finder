@@ -74,5 +74,3 @@ function scroll() {
     block: 'end',
   });
 }
-
-
