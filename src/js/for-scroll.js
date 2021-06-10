@@ -13,5 +13,5 @@ const options = {
 
 /*const observer = new IntersectionObserver(callback, options);
 observer.observe(document.querySelector('#sentinel'));*/
-const scrollMore = new betweenScrollMore(callback, options);
+const scrollMore = new IntersectionObserver(callback, options);
 scrollMore.observe(document.querySelector('#scroll-more'));
