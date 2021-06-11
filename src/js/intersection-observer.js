@@ -1,4 +1,4 @@
-const callback = (entries, io) => {
+ const callback = (entries, io) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       console.log(entry.isIntersecting);
@@ -8,10 +8,9 @@ const callback = (entries, io) => {
 };
 
 const options = {
-  rootMargin: '200px',
-  // threshold: 0.5,
+  rootMargin: '100px',
 };
 
 const observer = new IntersectionObserver(callback, options);
 
-observer.observe(document.querySelector('#sentinel'));
+observer.observe(document.querySelector('#sentinel')); 

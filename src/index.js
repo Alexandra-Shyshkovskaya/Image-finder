@@ -70,7 +70,8 @@ function clearPhotosContainer() {
 
 function scroll() {
   loadMoreBtn.refs.button.scrollIntoView({
-    behavior: 'smooth',
-    block: 'end',
+   // behavior: 'smooth',
+    block: 'center',
+    inline: "nearest",
   });
 }

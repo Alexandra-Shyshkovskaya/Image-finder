@@ -10,7 +10,7 @@ export default class LoadMoreBtn {
     refs.button = document.querySelector(selector);
     refs.label = refs.button.querySelector('.label');
     refs.spinner = refs.button.querySelector('.spinner');
-
+    
     return refs;
   }
 
