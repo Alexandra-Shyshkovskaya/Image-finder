@@ -13,7 +13,6 @@ export default class LoadMoreBtn {
     
     return refs;
   }
-
   enable() {
     this.refs.button.disabled = false;
     this.refs.label.textContent = 'Show more';
