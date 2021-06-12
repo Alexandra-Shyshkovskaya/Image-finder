@@ -28,11 +28,9 @@ export default class LoadMoreBtn {
   show() {
     this.refs.button.classList.remove('is-hidden');
   }
-
   hide() {
     this.refs.button.classList.add('is-hidden');
   }
-
   showEnd() {
     this.refs.button.disabled = true;
     this.refs.button.classList.remove('is-hidden');
@@ -40,7 +38,6 @@ export default class LoadMoreBtn {
     this.refs.label.textContent = 'End';
     this.refs.spinner.classList.add('is-hidden');
   }
-
   removeEnd() {
     this.refs.button.classList.remove('end');
   }
