@@ -44,7 +44,7 @@ function fetchPhotos() {
       return toastify.onFetchError();
     }
 
-    if (photos.length < 6 && photos.length > 0) {
+    if (photos.length < 12 && photos.length > 0) {
       loadMoreBtn.showEnd();
       appendPhotosMarkup(photos);
       return;
@@ -69,8 +69,8 @@ function clearPhotosContainer() {
 
 function scroll() {
   loadMoreBtn.refs.button.scrollIntoView({
-   // behavior: 'smooth',
-    block: 'center',
-    inline: "nearest",
+    behavior: 'smooth',
+    block: 'end',
+    //inline: "nearest",
   });
 }

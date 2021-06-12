@@ -1,11 +1,11 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
-  max-width: calc(100vw - 120px);
+  max-width: calc(100vw - 80px);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -17,10 +17,10 @@
 }
 
 .gallery-item {
-  height: 300px;
+  height: 320px;
   overflow: hidden;
-  margin-right: 35px;
-  margin-bottom: 30px;
+  //margin-right: 35px;
+  margin-bottom: 20px;
   box-shadow: 0.1em 0.1em 2em;
 }
 
@@ -28,19 +28,22 @@
   display: block;
   height: 250px;
   object-fit: cover;
+  //padding: 5px;
+  margin-bottom: 20px;
 }
 
 .stats {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 50px;
-  margin-top: 15px;
+  padding: 20px;
+  //margin-top: 15px;
 }
 
 .stats-item {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .material-icons {
