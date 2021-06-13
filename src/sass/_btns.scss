@@ -2,12 +2,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  //margin-bottom: 40px;
   text-align: center;
 }
 
 .btn {
-  padding: 15px 25px;
+  padding: 15px 20px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
@@ -39,4 +39,8 @@
 
 .button > .spinner.is-hidden {
   display: none;
+}
+.button.end {
+  margin: 0;
+  padding: 0;
 }
