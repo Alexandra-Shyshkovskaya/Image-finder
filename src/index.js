@@ -90,7 +90,6 @@ function scroll() {
   window.scrollBy(0, 620);
 }
 
-
 /*function windowsScrolling() {
   const totalScrollHeight = document.body.clientHeight;
 
