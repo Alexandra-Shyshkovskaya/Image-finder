@@ -68,9 +68,37 @@ function clearPhotosContainer() {
 }
 
 function scroll() {
-  loadMoreBtn.refs.button.scrollIntoView({
+ /*  const totalScrollHeight = document.body.clientHeight;
+
+ setTimeout(() => {
+    window.scrollTo({
+      top: totalScrollHeight,
+      //left: 0,
+      behavior: 'smooth',
+    });
+  }, 500); */
+  /* loadMoreBtn.refs.button.scrollIntoView({
     behavior: 'smooth',
     block: 'end',
     //inline: "nearest",
+  }); */
+  
+  refs.sentinel.scrollIntoView({
+    behavior: 'smooth',
+    block: 'end',
   });
+  window.scrollBy(0, 620);
 }
+
+
+/*function windowsScrolling() {
+  const totalScrollHeight = document.body.clientHeight;
+
+ setTimeout(() => {
+    window.scrollTo({
+      top: totalScrollHeight,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }, 500); 
+}*/

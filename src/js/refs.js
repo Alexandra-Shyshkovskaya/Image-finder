@@ -5,5 +5,6 @@ export default function getRefs() {
     galleryContainer: document.querySelector('.js-gallery-list'),
     largeImage: document.querySelector('.large-img'),
     sentinel: document.querySelector('#sentinel'),
+    
   };
 }
