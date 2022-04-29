@@ -1,24 +1,24 @@
 {
-  "name": "goit-js-hw-13-image-finder",
+  "name": "Image-finder",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://alexandra-shyshkovskaya.github.io/goit-js-hw-13-image-finder",
+  "homepage": "https://alexandra-shyshkovskaya.github.io/Image-finder",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
+    "build": "parcel build src/*.html --public-url /Image-finder/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/goit-js-hw-13-image-finder.git"
+    "url": "git+https://github.com/goitacademy/Image-finder.git"
   },
   "keywords": [],
   "author": "Alexandra Shyshkovskaya <alexis.shyshka@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/goit-js-hw-13-image-findernpm install axios/issues"
+    "url": "https://github.com/goitacademy/Image-findernpm install axios/issues"
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
