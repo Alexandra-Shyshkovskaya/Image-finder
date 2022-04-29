@@ -1,2 +1,9 @@
-# goit-js-hw-13-image-finder
- home work 13
+# Image finder
+
+An app that helps you find images on demand .
+
+[Image finder] (https://alexandra-shyshkovskaya.github.io/Image-finder/)
+
+<a href="https://alexandra-shyshkovskaya.github.io/Image-finder/">
+<img src="./src/screenshot.png" alt="Image finder">
+</a>
